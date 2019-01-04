@@ -428,24 +428,17 @@ function animate(obj,json,callback){
 		var run2=document.getElementById("run2"); 
 		var speed=50;//设置向上轮动的速度 
 		run2.innerHTML=run1.innerHTML;//复制节点 
-		function moveTop(){ 
-			if(run1.offsetHeight-run.scrollTop<=0){ 
-				run.scrollTop=0; 
-			}
-			else{ 
-				run.scrollTop++; 
-			} 
+		function moveTop(){
+				run.scrollTop++;
 		}
-		var myFunction= setInterval(moveTop,speed);
 		run.onmouseover=function(){ 
 			clearInterval(myFunction); 
 		} 
 		run.onmouseout=function(){ 
-			myFunction=setInterval(moveTop,speed); 
+			myFunction=setInterval(moveTop,50); 
 		}
-		// var myFunction=setInterval("moveTop()",speed); 
-
-
+		 var myFunction=setInterval(moveTop,50); 
+	
 		var inn01 = document.getElementsByClassName('inn01')[0];
 		var inn02 = document.getElementById('inn02');
 		var inn03 = document.getElementById('inn03');
