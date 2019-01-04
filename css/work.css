@@ -1,0 +1,297 @@
+* {
+	padding: 0;
+    margin:0;
+}
+ul,ol,li{
+	list-style: none;
+}
+
+.iner4{
+	position: fixed;
+	float: right;
+	left: 97%;
+}
+.banner{
+	margin:0 auto;
+	height: 180px;
+	width:100%;
+	background-color: #ffffff;
+	z-index: 999;
+}
+.banner0{
+	margin:0 auto;
+	width: 1180px;
+}
+.header{
+	height: 27px;
+}
+.header div{
+	float:left;
+	font-size: 14px;
+	color:#b0afaf;
+	margin-left: 7px;
+	padding-left: 7px;
+}
+.header2{
+	margin-top: 20px;
+}
+.header2 div{
+	float: left;
+}
+.header3{
+	height: 33px;
+	width: 650px;
+	margin-left: 250px;
+}
+.h1{
+	font-size: 9px;
+	color: #ff0000;
+}
+.h2{
+	color:#ebe7e7;
+	margin-right: 5px;
+}
+.header4{
+	width: 1180px;
+	float: left;
+	margin-top: 25px;
+}
+.header4 div{
+	width: 108px;
+	height: 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+.h3{
+	width: 27px;
+	height: 425px;
+	background-color: #4c4c4a;
+	float: left;
+	margin-top: 0;
+	color:#ff4d4b;
+	font-size: 14px;
+	text-align: center;
+	line-height: 34px;
+}
+.h4{
+	height: 425px;
+	width: 168px;
+	border-bottom:1px solid #ff4d4b;
+	background-color: #ffffff;
+}
+.h4 li{
+	font-size: 9px;
+	padding-left: 11px;
+	float: left;
+	padding-top: 19px;
+}
+.banner01{
+	width: 800px;
+	height: 540px;
+	float: left;
+}
+.box{
+	width: 800px;
+	height: 357px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.slider{
+	width: 8400px;
+	/*height: 357px;*/
+	float: left;
+	/*left: -800px;*/
+	position: absolute;
+	left:-800px;
+	/*background-color: #fe6c00;*/
+}
+.slide{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 260px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background: red;
+}
+
+
+
+.iner{
+	width: 800px;
+	height: 186px;
+}
+.iner img{
+	float: left;
+}
+.header6{
+	height: 545px;
+	width: 211px;
+	float: right;
+	background-color: #ffffff;
+}
+.header6 img{
+	margin-left: 16px;
+}
+.header6 span{
+	font-size: 14px;
+	color:#fe6c00;
+}
+.header6 li{
+	font-size: 14px;
+	color:#fe6c00;
+	float: left;
+	padding-top: 6px;
+	font-weight: bolder;
+	padding-left: 8px;
+	list-style:none; 
+}
+.d322{
+	width:209px;
+	height:320px;
+	overflow:hidden;
+}
+#run{ 
+height:320px; 
+overflow:hidden; 
+margin-top:0px; 
+} 
+.d322 div ul li a{ 
+text-decoration:none; 
+color:#333333; 
+} 
+.d322 div ul li a:hover{ 
+text-decoration:underline; 
+} 
+#express li{
+	padding-top:10px;
+	padding-left:20px;
+	font-size:13px;
+	color:#ff4d04;
+	font-weight:bolder;
+}
+
+.h5{
+	 margin-top: 20px;
+	 border:1px solid #b0afaf;
+	 height: 40px;
+	 width: 85px;
+	 border-radius:5px; 
+}
+.h6{
+	width: 165px;
+	height: 120px;
+	background-color: #ffffff;
+}
+.h6 img{
+	/*margin-top: 11px;
+	margin-bottom: 11px;*/
+	float: left;
+}
+.h6 li{
+	padding-left: 10px;
+	line-height: 23px;
+	float: left;
+}
+.h6 div{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-size: 11px;
+	padding-left: 10px;
+	float: left;
+	color:#855d38;
+}
+.banner2{
+	width: 1010px;
+	height: 182px;
+	float: left;
+	border-bottom: 1px solid #ebeae8;
+}
+.banner2 ul{
+	height: 182px;
+	width: 70px;
+	margin-left: 65px;
+	float: left;
+	margin-top: 21px;
+	font-size: 9px;
+}
+.banner2 li{
+	padding-top: 9px;
+	color:#855d38;
+}
+.banner3{
+	height: 165px;
+	width:100%;
+	background-color: #f8f7f6;
+	margin:0 auto;
+}
+.iner2{
+	height: 165px;
+	width: 1180px;
+	margin:0 auto;
+}
+.inerr1{
+	height: 17px;
+	width: 651px;
+	margin:0 auto;
+}
+.h8{
+	font-size: 10px;
+	color:#855d38;
+	padding-right: 8px;
+}
+.h9{
+	color:#ebe7e7;
+	margin-right: 8px;
+}
+.inerr2{
+	padding-top: 15px;
+	height: 64px;
+	width: 1065px;
+	margin:0 auto;
+	font-size: 11px;
+	color:#855d38;
+}
+.inerr3{
+	width: 800px;
+	height: 57px;
+	margin:0 auto;
+}
